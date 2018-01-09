@@ -1,0 +1,39 @@
+$secondary: #BFBFBF;
+$blue: #29A4C9;
+$black: #373737;
+$gray: #9D9D9D;
+
+body {
+  background: $secondary;
+}
+
+nav {
+background: white;
+border-bottom: 3px solid $blue;
+}
+
+#home-header {
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  margin-top: 40px;
+
+  .header-overlay {
+    background: white;
+    opacity: 0.8;
+    min-height: 700px;
+  }
+
+  .col-lg-8 {
+    margin-top: 100px;
+  }
+
+  .fa {
+    padding: 4px;
+    background-color: $blue;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+}

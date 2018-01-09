@@ -1,0 +1,25 @@
+body {
+  background: #BFBFBF; }
+
+nav {
+  background: white;
+  border-bottom: 3px solid #29A4C9; }
+
+#home-header {
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  margin-top: 40px; }
+  #home-header .header-overlay {
+    background: white;
+    opacity: 0.8;
+    min-height: 700px; }
+  #home-header .col-lg-8 {
+    margin-top: 100px; }
+  #home-header .fa {
+    padding: 4px;
+    background-color: #29A4C9;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white; }
